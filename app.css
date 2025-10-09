@@ -8661,4 +8661,44 @@ button.swiper-pagination-bullet {
         .bg_info_product_card {
             background-color: var(--bg-product-card);
         }
+/* owl carouseal style */
+/* Position navigation arrows on the sides */
+.owl-carousel .owl-nav {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  pointer-events: none; /* Allows clicks only on buttons */
+}
+
+/* Style each arrow */
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  pointer-events: auto; /* Enable button clicks */
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.owl-carousel .owl-nav button.owl-prev:hover,
+.owl-carousel .owl-nav button.owl-next:hover {
+  background-color: #f4b400; /* Example: yellow accent */
+  color: #000;
+}
+
+/* Optional: adjust arrow icons position */
+.owl-carousel .owl-nav button.owl-prev {
+  margin-left: 10px;
+}
+.owl-carousel .owl-nav button.owl-next {
+  margin-right: 10px;
+}
     

@@ -8582,12 +8582,7 @@ html, body {
     max-width: 100%;
     overflow: hidden;
 }
-  /* #btn-color-white{
-    color: white;
-    background-color: rgba(247, 184, 67, 1)
-  } */
-  <!-- owl style -->
-    
+
         /* Position navigation arrows on the sides */
         .owl-carousel .owl-nav {
             position: absolute;
